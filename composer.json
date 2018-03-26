@@ -10,7 +10,7 @@
     "telegram",
     "telegram-bot",
     "telegram-logger",
-    "telegram-loging",
+    "telegram-loging"
   ],
   "type": "library",
   "version": "v1.0.0",
