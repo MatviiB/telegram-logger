@@ -1,0 +1,28 @@
+{
+  "name": "matviib/telegram-logger",
+  "description": "",
+  "keywords": [],
+  "type": "library",
+  "version": "v0.0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matvii Bondar",
+      "email": "matvii.bondar@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MatviiB\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "aliases": {
+        "Log": "MatviiB\\TelegramLog"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {}
+}
