@@ -13,11 +13,11 @@ class TelegramLog extends Log
      */
     public static function telegram($note)
     {
-        $token = env('TELEGRAM_LOG_TOKEN');
-        $chat_id = env('TELEGRAM_CHAT_ID');
+        $token = env('TELEGRAM_LOGGER_TOKEN');
+        $chat_id = env('TELEGRAM_LOGGER_CHAT_ID');
 
         // to get chat_id send message to bot and then open the url:
-        // https://api.telegram.org/bot<YourBOTToken>/getUpdates.
+        // https://api.telegram.org/bot<TELEGRAM_LOGGER_TOKEN>/getUpdates.
         // search chat_id. this steps needed for adding EACH developer.
 
         $message = '<b>' . env('APP_NAME') . '</b>' . PHP_EOL

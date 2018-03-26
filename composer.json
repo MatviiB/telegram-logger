@@ -1,7 +1,17 @@
 {
   "name": "matviib/telegram-logger",
-  "description": "",
-  "keywords": [],
+  "description": "Put log messages from your Laravel app to your Telegram bot",
+  "keywords": [
+    "laravel",
+    "laravel-5-package",
+    "logging",
+    "logger",
+    "logs",
+    "telegram",
+    "telegram-bot",
+    "telegram-logger",
+    "telegram-loging",
+  ],
   "type": "library",
   "version": "v0.0.1",
   "license": "MIT",
@@ -24,5 +34,7 @@
     }
   },
   "minimum-stability": "dev",
-  "require": {}
+  "require": {
+    "laravel/framework": "^5.0"
+  }
 }
