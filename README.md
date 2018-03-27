@@ -3,9 +3,9 @@
 
 ## Usage
 ```
-  \Log::telegram('Hey, i am your application, and i\'m have a problem');
+  \Log::telegram('Hey, i am your application, and i have a problem');
 ```
-![laravel telegram logger](https://gitlab.com/MatviiB/assets/raw/master/download.png)
+![laravel telegram logger](https://gitlab.com/MatviiB/assets/raw/master/download(2).png)
 
 # Instalation
 ```
