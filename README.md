@@ -5,7 +5,7 @@
 ```
   \Log::telegram('Hey, i am your application, and i have a problem');
 ```
-![laravel telegram logger](https://gitlab.com/MatviiB/assets/raw/master/download(2).png)
+![laravel telegram logger](https://gitlab.com/MatviiB/assets/raw/master/download%20(2).png)
 
 # Instalation
 ```
