@@ -1,7 +1,7 @@
 <p>
   <img src="https://scrutinizer-ci.com/g/MatviiB/telegram-logger/badges/build.png?b=master" alt="build passed">
   <img src="https://scrutinizer-ci.com/g/MatviiB/telegram-logger/badges/code-intelligence.svg?b=master" alt="code-intelligence">
-  <img src="https://scrutinizer-ci.com/g/MatviiB/telegram-logger/badges/quality-score.png?b=master" alt="quality-score">
+  <!-- <img src="https://scrutinizer-ci.com/g/MatviiB/telegram-logger/badges/quality-score.png?b=master" alt="quality-score"> -->
   <img src="https://poser.pugx.org/matviib/telegram-logger/downloads" alt="downloads">
   <img src="https://poser.pugx.org/matviib/telegram-logger/license" alt="license">
 </p>
