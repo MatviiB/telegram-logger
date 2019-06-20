@@ -13,11 +13,11 @@ class TelegramLog extends Log
      */
     public static function telegram($note)
     {
-        $token = env('TELEGRAM_LOGGER_TOKEN');
-        $chat_id = env('TELEGRAM_LOGGER_CHAT_ID');
+        $token = config('services.telegram_logger.token', env('TELEGRAM_LOGGER_TOKEN'));
+        $chat_id = config('services.telegram_logger.chat_id', env('TELEGRAM_LOGGER_CHAT_ID'));
 
-        $message = '<b>' . env('APP_NAME') . '</b>' . PHP_EOL
-            . '<b>' . env('APP_ENV') . '</b>' . PHP_EOL
+        $message = '<b>' . config('app.name', env('APP_NAME')) . '</b>' . PHP_EOL
+            . '<b>' . config('app.env', env('APP_ENV')) . '</b>' . PHP_EOL
             . '<i>Message:</i>' . PHP_EOL
             . '<code>' . $note . '</code>';
 
