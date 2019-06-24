@@ -1,5 +1,5 @@
 {
-  "name": "matviib/telegram-logger",
+  "name": "dualse/telegram-logger",
   "description": "Put log messages from your Laravel app to your Telegram bot",
   "keywords": [
     "laravel",
