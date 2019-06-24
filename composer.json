@@ -17,8 +17,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Matvii Bondar",
-      "email": "matvii.bondar@gmail.com"
+      "name": "Dualse",
+      "email": "dasanonim@gmail.com"
     }
   ],
   "autoload": {
@@ -29,7 +29,7 @@
   "extra": {
     "laravel": {
       "aliases": {
-        "Log": "MatviiB\\TelegramLog"
+        "Log": "Dualse\\TelegramLog"
       }
     }
   },
